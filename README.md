@@ -1,5 +1,4 @@
 # IML400
-<!DOCTYPE html>
 <html>
 <header>
 </header>
