@@ -1,12 +1,13 @@
 <html>
 <header>
  <title>Daisy's Cybernetic Garden</title>
+    <link rel="stylesheet" href="CyberneticCSS.css"
     <meta charset="utf-8" />
 
 </header>
 
 <body>
-<background-color="black">
+
 
 </body
 </html>
