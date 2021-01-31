@@ -14,7 +14,7 @@ h1{
     font-family: sans-serif;
     font-size: 2vw;
     padding-left: 10vw;
-    position:absolute;
+    position:fixed;
     z-index: 0;
 }
 
@@ -62,4 +62,11 @@ h1{
     z-index: 6;
     margin-top: 23vh;
     padding-left: 16vw;
+}
+
+.audio-Stack{
+    position:fixed;
+    z-index: 10;
+    margin-top: 2vh;
+    margin-left: 76vw;
 }
