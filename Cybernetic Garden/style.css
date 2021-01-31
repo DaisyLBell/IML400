@@ -1,0 +1,22 @@
+body{
+background-color: black;
+}
+
+h1{
+    color:lightyellow;
+    font-family: sans-serif;
+    font-size: 2vw;
+    padding-top: 0vh;
+    padding-left: 10vw;
+    z-index: 0;
+}
+
+.computer{
+    text-align: center;
+    
+}
+
+.stackComputer{
+    z-index: 3;
+    text-align: center
+}
