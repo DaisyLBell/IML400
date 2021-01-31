@@ -13,7 +13,6 @@ h1{
     color:lightyellow;
     font-family: sans-serif;
     font-size: 2vw;
-    padding-top: 0vh;
     padding-left: 10vw;
     position:absolute;
     z-index: 0;
@@ -26,6 +25,41 @@ h1{
 
 .computerStack{
     z-index: 9;
-    margin-top: 36vh;
+    margin-top: 45vh;
 /*    margin-left: 35vw;*/
+}
+
+.image-Stack1{
+    position: absolute;
+    z-index: 2;
+    margin-top: 7vh;
+    padding-left: 22vw;
+}
+
+.image-Stack2{
+    position: absolute;
+    z-index: 3;
+    margin-top: 16vh;
+    padding-left: 18vw;
+}
+
+.image-Stack3{
+    position: absolute;
+    z-index: 4;
+    margin-top: 30vh;
+    padding-left: 15vw;
+}
+
+.image-Stack4{
+    position: absolute;
+    z-index: 5;
+    margin-top: 22vh;
+    padding-left: 11vw;
+}
+
+.image-Stack5{
+    position: absolute;
+    z-index: 6;
+    margin-top: 23vh;
+    padding-left: 16vw;
 }
