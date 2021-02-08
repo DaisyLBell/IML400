@@ -249,3 +249,13 @@ visibility:visible;
 .popupContent.active {
 visibility:visible;
 }
+
+.marqueeStyle{
+    position:fixed;
+    z-index: 13;
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 2vw;
+    color:antiquewhite;
+    margin-top: 95vh;
+}
