@@ -1,26 +1,8 @@
 # IML400
 <html>
 <header>
+Intro to Daisy's Cybernetic Garden
 
-<meta charset="utf-8" />
-    <title>Intro to Daisy's Cybernetic Garden</title>
-
-h1{
-font-family:sans-serif;
-font-size: 2vw;
-color: magenta;
-}
-
-h2{
-font-family: sans-serif;
-font-size:1vw;
-color: white;
-}
-
-body{
-background-color:black;
-margin:5vw;
-}
 </header>
 
 <body>
