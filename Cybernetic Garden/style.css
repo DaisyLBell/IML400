@@ -25,60 +25,227 @@ h2{
     font-family: sans-serif;
     font-size: 1vw;
     padding-top: 8vh;
-    padding-left: 80vw;
+    padding-left: 81vw;
     position:fixed;
     z-index: 0;
 }
 
-.computer{
-    text-align: center;
-    position:fixed;
-}
 
 .computerStack{
     z-index: 9;
     margin-top: 45vh;
+    position: fixed;
+    text-align: center;
 /*    margin-left: 35vw;*/
 }
 
-.image-Stack1{
-    position: fixed;
-    z-index: 2;
+.image-Stack1 {
     margin-top: 7vh;
-    padding-left: 22vw;
+    margin-left: 18vw;
+    position: fixed;
+    padding-left: 3vw;
+    z-index: 2;
 }
 
 .image-Stack2{
+    margin-top: 10vh;
+    margin-left: 42vw;
     position: fixed;
-    z-index: 3;
-    margin-top: 16vh;
-    padding-left: 18vw;
+    padding-left: 3vw;
+    z-index: 2;
 }
 
 .image-Stack3{
+    margin-top: 7vh;
+    margin-left: 57vw;
     position: fixed;
-    z-index: 4;
-    margin-top: 30vh;
-    padding-left: 15vw;
+    padding-left: 3vw;
+    z-index: 2;
 }
 
 .image-Stack4{
+    margin-top: 14vh;
+    margin-left: 12vw;
     position: fixed;
-    z-index: 5;
-    margin-top: 22vh;
-    padding-left: 11vw;
+    padding-left: 3vw;
+    z-index: 3;
 }
 
 .image-Stack5{
+    margin-top: 12vh;
+    margin-left: 33vw;
     position: fixed;
+    padding-left: 3vw;
+    z-index: 3;
+}
+
+.image-Stack6{
+    margin-top: 13vh;
+    margin-left: 48vw;
+    position: fixed;
+    padding-left: 3vw;
+    z-index: 3;
+}
+
+.image-Stack7{
+    margin-top: 14vh;
+    margin-left: 64vw;
+    position: fixed;
+    padding-left: 3vw;
+    z-index: 3;
+}
+
+.image-Stack8{
+    margin-top: 22vh;
+    margin-left: 12vw;
+    position: fixed;
+    padding-left: 3vw;
+    z-index: 4;
+}
+
+.image-Stack9{
+    margin-top: 18vh;
+    margin-left: 35vw;
+    position: fixed;
+    padding-left: 3vw;
+    z-index: 4;
+}
+
+.image-Stack10{
+    margin-top: 16vh;
+    margin-left: 55vw;
+    position: fixed;
+    padding-left: 3vw;
+    z-index: 4;
+}
+
+.image-Stack11{
+    margin-top: 19vh;
+    margin-left: 69vw;
+    position: fixed;
+    padding-left: 3vw;
+    z-index: 4;
+}
+
+.image-Stack12{
+    margin-top: 20vh;
+    margin-left: 10vw;
+    position: fixed;
+    padding-left: 3vw;
+    z-index: 5;
+}
+
+.image-Stack13{
+    margin-top: 22vh;
+    margin-left: 31vw;
+    position: fixed;
+    padding-left: 3vw;
+    z-index: 5;
+}
+
+.image-Stack14{
+    margin-top: 20vh;
+    margin-left: 47vw;
+    position: fixed;
+    padding-left: 3vw;
+    z-index: 5;
+}
+
+.image-Stack15{
+    margin-top: 24vh;
+    margin-left: 65vw;
+    position: fixed;
+    padding-left: 3vw;
+    z-index: 5;
+}
+
+.image-Stack16{
+    margin-top: 29vh;
+    margin-left: 14vw;
+    position: fixed;
+    padding-left: 3vw;
+    z-index: 5;
+}
+
+.image-Stack17{
+    margin-top: 20vh;
+    margin-left: 33vw;
+    position: fixed;
+    padding-left: 3vw;
+    z-index: 5;
+}
+
+.image-Stack18{
+    margin-top: 17vh;
+    margin-left: 46.5vw;
+    position: fixed;
+    padding-left: 3vw;
+    z-index: 5;
+}
+
+.image-Stack19{
+    margin-top: 21vh;
+    margin-left: 62vw;
+    position: fixed;
+    padding-left: 3vw;
     z-index: 6;
-    margin-top: 23vh;
-    padding-left: 16vw;
+}
+
+.image-Stack20{
+    margin-top: 32vh;
+    margin-left: 22vw;
+    position: fixed;
+    padding-left: 3vw;
+    z-index: 6;
+}
+
+.image-Stack21{
+    margin-top: 16vh;
+    margin-left: 39vw;
+    position: fixed;
+    padding-left: 3vw;
+    z-index: 6;
+}
+
+.image-Stack22{
+    margin-top: 30vh;
+    margin-left: 57vw;
+    position: fixed;
+    padding-left: 3vw;
+    z-index: 6;
 }
 
 .audio-Stack{
     position:fixed;
     z-index: 10;
     margin-top: 2vh;
-    margin-left: 76vw;
+    margin-left: 77vw;
+}
+
+.popUpStyle{
+    font-style:oblique;
+    color: mediumpurple;
+    background-color:black;
+    margin-top: 80vh;
+    margin-left: 4vw;
+    padding:1vw;
+    position: fixed;
+    z-index: 13;
+}
+
+
+.popupOverlay{
+visibility:hidden;
+}
+
+.popupContent{
+visibility:hidden;
+}
+
+.popupOverlay.active{
+visibility:visible;
+}
+
+.popupContent.active {
+visibility:visible;
 }
