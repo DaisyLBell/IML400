@@ -1,7 +1,6 @@
 # IML400
 <html>
 <header>
-Intro to Daisy's Cybernetic Garden
 
 </header>
 
