@@ -259,6 +259,17 @@ h2{
 }
 */
 
+.removeImg{
+    
+}
+
+.removeButton{
+    position: fixed;
+    z-index: 12;
+    margin-top: 83vh;
+    margin-left: 3vw;
+}
+
 .marqueeStyle{
     position:fixed;
     z-index: 13;

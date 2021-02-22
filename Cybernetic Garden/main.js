@@ -13,5 +13,14 @@ $(".popup, .popupContent").addClass("active");
 $('.computerStack').click(function(){
     $('.directions').toggle();
 })
+     
+$("button").click(function(){
+  $('.removeImg').remove();
+});
+     
+//$("button").click(function(){
+//    $('.removeImg').removeClass();
+//})
+
   
 });
