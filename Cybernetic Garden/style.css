@@ -233,22 +233,29 @@ h2{
     z-index: 13;
 }
 
-
-.popupOverlay{
-visibility:hidden;
+.directions{
+    display: none;
+    text-align: center;
+    padding: 3vw;
+    position: fixed;
+    margin-top: 38.5vh;
+    margin-left: -43.5vw;
+    z-index: 10;
 }
 
-.popupContent{
-visibility:hidden;
+/*
+.rKeyDirections{
+    display: none;
+    text-align: center;
+    padding: 3vw;
+    position: fixed;
+    margin-top: 30vh;
+    margin-left: -50vw;
+    padding: 3vw;
+    z-index: 11;
+    background-color:antiquewhite;
 }
-
-.popupOverlay.active{
-visibility:visible;
-}
-
-.popupContent.active {
-visibility:visible;
-}
+*/
 
 .marqueeStyle{
     position:fixed;
@@ -256,6 +263,6 @@ visibility:visible;
     font-family: sans-serif;
     font-style: italic;
     font-size: 2vw;
-    color:antiquewhite;
+    color:white;
     margin-top: 95vh;
 }

@@ -1,0 +1,38 @@
+body{
+    background-color:white;
+    margin: 5vw;
+}
+
+h1{
+    color: rgb(249, 71, 38);
+/*    color: orangered;*/
+    font-size: 6vw;
+    font-family: serif;
+    margin-top: 10vh;
+    text-align: center;
+}
+
+h2{
+    color: grey;
+    font-size: 1.25vw;
+    font-family: sans-serif;
+    font-style: italic;
+/*    margin-top: 1vh;*/
+    text-align: center;
+}
+
+h3{
+    color: black;
+    font-size: 2vw;
+    font-family: sans-serif;
+    padding-bottom: 8vh;
+    text-decoration: none;
+    text-align: center;
+}
+
+.projectList{
+    background-color:aliceblue;
+    margin-top: 3vh;;
+    text-align: center;
+    padding: 4vw;
+}

@@ -10,8 +10,8 @@ $(".open").on("click", function(){
 $(".popup, .popupContent").addClass("active");
 });
      
-$(".close, .popup").on("click", function(){
-$(".popup, .popupContent").removeClass("active");
-});
+$('.computerStack').click(function(){
+    $('.directions').toggle();
+})
   
 });
