@@ -25,9 +25,20 @@ h3{
     color: black;
     font-size: 2vw;
     font-family: sans-serif;
-    padding-bottom: 8vh;
+    padding-top: 6vh;
+    padding-bottom: 4vh;
     text-decoration: none;
     text-align: center;
+}
+
+.h4{
+    color: grey;
+    font-size: .8vw;
+    font-family: sans-serif;
+    font-style: italic;
+/*    text-align: left;*/
+    padding-bottom: 8vh;
+
 }
 
 .projectList{
